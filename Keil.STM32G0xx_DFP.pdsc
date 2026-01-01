@@ -1236,7 +1236,7 @@ High-performance STM32G0 MCUs with Arm Cortex-M0+ core 32-bit RISC core operatin
         <!-- *************************  Device 'STM32G0B0VETx'  ***************************** -->
         <device Dname="STM32G0B0VETx">
           <memory name="Main_Flash" access="rx"            start="0x08000000" size="0x00080000" default="1" startup="1"/>
-          <memory name="SRAM"       access="rwx"           start="0x20000000" size="0x00020000" default="1"/>
+          <memory name="SRAM"       access="rwx"           start="0x20000000" size="0x00024000" default="1"/>
           <algorithm name="CMSIS/Flash/STM32G0Bx_512.FLM"  start="0x08000000" size="0x00080000" RAMstart="0x20000000" RAMsize="0x8000" default="1"/>
           <feature type="QFP" n="100"/>
         </device>
